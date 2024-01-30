@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="style.css">
+
+<h1 class="title1">Vil du lære koding og hacking?? Mohahahah her er coursen du trenger</h1>
+<p>Nei jeg vil ikke at dere skal søren meg ddos attacke skolen så snakk til meg eller no hvis du vil lære hahah :D</p>
+<p>Jaaa.... Grunnen til at jeg tok inn et passord er fordig jeg må kunne stole på dere hvis dere skal lære hacking eller noe gidder ikke og ta skylden for at jeg "lærte" noen hacking SOM HACKA SKOLEN</p>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--BROOOOO JEG TRODDE VIRKELIG IKKE
+AT DERE SKJØNTE KODE :(
+UANSETT BRA JOBBA SÅNN FANT DERE PASSORDET
+GADD EGENTLIG IKKE Å GJØRE DET MERE SIKKERT FORDI
+VISTE IKKE AT NOEN PÅ HOLMEN SKOLE HADDE COMPUTER SKILLS MOHAHAH
+BRA JOBBA!!!
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du skylder meg 10kr hvis du leser dette</title>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("passwordInput").value;
+
+            if (password === "ostepop1") {
+                alert("Riktig passord velkommen mohahahh")
+                window.location.href = "main.html";
+            } else {
+                document.getElementById("error-message").innerHTML = "Feil passord pookie bear";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 100px;">
+        <label for="passwordInput">Skriv inn passordet:</label>
+        <input type="password" id="passwordInput">
+        <button onclick="checkPassword()">Ferdig</button>
+        <p id="error-message" style="color: red;"></p>
+    </div>
+</body>
+</html>
